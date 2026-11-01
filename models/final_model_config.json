@@ -1,0 +1,19 @@
+{
+    "project": "Predictive Analytics for Airline Flight Delays",
+    "model": "Logistic Regression",
+    "classification_threshold": 0.225,
+    "training_period": "January-November 2025",
+    "testing_period": "December 2025",
+    "training_sample_size": 500000,
+    "target": "ARR_DEL15_TARGET",
+    "features": [
+        "OP_UNIQUE_CARRIER",
+        "ORIGIN",
+        "DEST",
+        "DISTANCE",
+        "FLIGHT_MONTH",
+        "FLIGHT_WEEKDAY",
+        "DEP_HOUR",
+        "ARR_HOUR"
+    ]
+}
